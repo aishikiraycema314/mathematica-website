@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  Mathematica_website
+ </title>
+ <link href="HTMLFiles/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class='Title' style='background-color: #ED4545;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ A Chemist&rsquo;s Guide to Mathematica for Symbolic Computation
+</p>
+
+
+
+<p class="Subtitle">
+ Aishiki Ray, <br />CEMA-314 (2025-29)
+</p>
+
+
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.1: Executing a command:
+</p>
+
+
+
+<p class="Text">
+ After you type a command, you execute it by hitting the combination SHIFT+ENTER
+</p>
+
+
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.2: Data Types:
+</p>
+
+
+
+<p class='Text' style='background-color: #FA8F2B;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ Core:
+</p>
+
+
+
+<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1. Integer: Whole numbers with no size limit, automatically handling arbitrary precision.<br />Example: 1, 2, 7<br />2.&nbsp;&nbsp;Real: Floating-point numbers, covering both machine-precision and arbitrary-precision decimals.<br />Example: 6.023, 3.14<br />3. Rational: Exact fractions written explicitly as numerator/denominator.<br />Example: <span><span><img src="HTMLFiles/index_1.png" alt="index_1.png" width="19" height="33" style="vertical-align:middle" /></span></span><br />4. Complex: Numbers containing an imaginary part, represented by the capital symbol I.<br />Example: 3 + 4I<br />5. String: Text characters wrapped in double quotes <br />Example:&nbsp;&nbsp;&ldquo;hello&rdquo;<br />6. Symbol: Named variables, functions, or constants<br />Example: x, Pi
+</p>
+
+
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.3: Commands for Basic Arithmetic
+</p>
+
+
+
+<p class="Text">
+ Mathematica works much like a calculator for basic arithmetic. Just use the +, &ndash;, *, and / keys on the keyboard for addition, subtraction, multiplication, and division. As an alternative to typing *, you can multiply two numbers by leaving a space between them (the &times; symbol will automatically be inserted when you leave a space between two numbers). You can raise a number to a power using the ^ key. Use the dot (i.e., the period) to type a decimal point. Here are a few examples:<br />
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_2.png" alt="index_2.png" width="35" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_3.png" alt="index_3.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_4.png" alt="index_4.png" width="35" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_5.png" alt="index_5.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_6.png" alt="index_6.png" width="136" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_7.png" alt="index_7.png" width="61" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_8.png" alt="index_8.png" width="145" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_9.png" alt="index_9.png" width="125" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_10.png" alt="index_10.png" width="71" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_11.png" alt="index_11.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_12.png" alt="index_12.png" width="57" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_13.png" alt="index_13.png" width="42" height="29" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_14.png" alt="index_14.png" width="79" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_15.png" alt="index_15.png" width="52" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_16.png" alt="index_16.png" width="51" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_17.png" alt="index_17.png" width="21" height="16" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_18.png" alt="index_18.png" width="74" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_19.png" alt="index_19.png" width="50" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_20.png" alt="index_20.png" width="96" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_21.png" alt="index_21.png" width="64" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_22.png" alt="index_22.png" width="58" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_23.png" alt="index_23.png" width="50" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_24.png" alt="index_24.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_25.png" alt="index_25.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_26.png" alt="index_26.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_27.png" alt="index_27.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_28.png" alt="index_28.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_29.png" alt="index_29.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_30.gif" alt="index_30.gif" width="40" height="53" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_31.png" alt="index_31.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_32.gif" alt="index_32.gif" width="53" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_33.png" alt="index_33.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_34.png" alt="index_34.png" width="328" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_35.png" alt="index_35.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_36.png" alt="index_36.png" width="62" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_37.png" alt="index_37.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class='Input' style='background-color: #FFFFFF;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ <img src="HTMLFiles/index_38.png" alt="index_38.png" width="71" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_39.png" alt="index_39.png" width="11" height="29" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_40.png" alt="index_40.png" width="51" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_41.png" alt="index_41.png" width="51" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_42.png" alt="index_42.png" width="61" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_43.png" alt="index_43.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_44.png" alt="index_44.png" width="87" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_45.png" alt="index_45.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.4 : Forming Equations on Mathematica
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_46.gif" alt="index_46.gif" width="159" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_47.png" alt="index_47.png" width="30" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_48.png" alt="index_48.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_49.png" alt="index_49.png" width="156" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_50.png" alt="index_50.png" width="30" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_51.png" alt="index_51.png" width="64" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_52.png" alt="index_52.png" width="165" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_53.png" alt="index_53.png" width="52" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_54.png" alt="index_54.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_55.png" alt="index_55.png" width="71" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_56.png" alt="index_56.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_57.png" alt="index_57.png" width="24" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_58.png" alt="index_58.png" width="13" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_59.png" alt="index_59.png" width="31" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_60.png" alt="index_60.png" width="13" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_61.png" alt="index_61.png" width="24" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_62.png" alt="index_62.png" width="13" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_63.png" alt="index_63.png" width="31" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_64.png" alt="index_64.png" width="50" height="15" style="vertical-align:middle" />
+</p>
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.5 : Plotting Basic Functions
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_65.png" alt="index_65.png" width="196" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_66.gif" alt="index_66.gif" width="360" height="213" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_67.png" alt="index_67.png" width="257" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_68.gif" alt="index_68.gif" width="360" height="213" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_69.png" alt="index_69.png" width="462" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_70.gif" alt="index_70.gif" width="360" height="222" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_71.png" alt="index_71.png" width="519" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_72.gif" alt="Graphics:Sine Wave" width="360" height="236" style="vertical-align:middle" />
+</p>
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.6 : Plotting data points on Mathematica
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_73.png" alt="index_73.png" width="4" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_74.png" alt="index_74.png" width="170" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_75.gif" alt="index_75.gif" width="360" height="232" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_76.png" alt="index_76.png" width="235" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_77.gif" alt="index_77.gif" width="360" height="232" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_78.png" alt="index_78.png" width="314" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_79.png" alt="index_79.png" width="880" height="131" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_80.png" alt="index_80.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_81.gif" alt="index_81.gif" width="360" height="213" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_82.png" alt="index_82.png" width="604" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_83.gif" alt="index_83.gif" width="360" height="222" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_84.png" alt="index_84.png" width="844" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_85.gif" alt="index_85.gif" width="360" height="231" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_86.png" alt="index_86.png" width="547" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_87.gif" alt="Graphics:Dual Plot" width="360" height="245" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_88.png" alt="index_88.png" width="965" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_89.gif" alt="Graphics:Sin(x) vs x" width="360" height="236" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_90.png" alt="index_90.png" width="965" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_91.gif" alt="Graphics:Sin(x) vs x" width="360" height="236" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_92.gif" alt="index_92.gif" width="726" height="53" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_93.gif" alt="Graphics:Graph of Parabola" width="360" height="249" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_94.png" alt="index_94.png" width="589" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_95.gif" alt="index_95.gif" width="360" height="222" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_96.png" alt="index_96.png" width="4" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_97.png" alt="index_97.png" width="647" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_98.gif" alt="Graphics:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x Plot of&nbsp;&nbsp;e" width="360" height="249" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_99.png" alt="index_99.png" width="665" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_100.gif" alt="index_100.gif" width="285" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_101.gif" alt="index_101.gif" width="360" height="226" style="vertical-align:middle" />
+</p>
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.7: Some miscellaneous operations often used in Symbolic Computation
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_102.png" alt="index_102.png" width="156" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_103.png" alt="index_103.png" width="80" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_104.png" alt="index_104.png" width="189" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_105.png" alt="index_105.png" width="28" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_106.png" alt="index_106.png" width="119" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_107.png" alt="index_107.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_108.png" alt="index_108.png" width="86" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_109.gif" alt="index_109.gif" width="102" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_110.png" alt="index_110.png" width="48" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_111.png" alt="index_111.png" width="142" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_112.png" alt="index_112.png" width="71" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_113.png" alt="index_113.png" width="23" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_114.png" alt="index_114.png" width="71" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_115.png" alt="index_115.png" width="28" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_116.png" alt="index_116.png" width="127" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_117.png" alt="index_117.png" width="90" height="32" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_118.png" alt="index_118.png" width="190" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_119.png" alt="index_119.png" width="80" height="29" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_120.png" alt="index_120.png" width="119" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_121.png" alt="index_121.png" width="218" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_122.png" alt="index_122.png" width="120" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_123.png" alt="index_123.png" width="13" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_124.png" alt="index_124.png" width="86" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_125.png" alt="index_125.png" width="44" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_126.png" alt="index_126.png" width="218" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_127.png" alt="index_127.png" width="124" height="21" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_128.png" alt="index_128.png" width="124" height="21" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_129.png" alt="index_129.png" width="232" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Message">
+ <img src="HTMLFiles/index_130.png" alt="index_130.png" width="297" height="29" style="vertical-align:middle;" usemap="#map_130" />
+<map name="map_130">
+<area shape="rect" coords="0,22,18,4" title="Dynamic[RawBoxes[FEPrivate`FrontEndResource[FEStrings, messageMenuTooltip]]]" nohref="" />
+</map>
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_131.png" alt="index_131.png" width="85" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_132.png" alt="index_132.png" width="215" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_133.png" alt="index_133.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_134.png" alt="index_134.png" width="124" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_135.png" alt="index_135.png" width="57" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_136.png" alt="index_136.png" width="265" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_137.png" alt="index_137.png" width="12" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_138.png" alt="index_138.png" width="224" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_139.png" alt="index_139.png" width="115" height="18" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_140.png" alt="index_140.png" width="66" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_141.png" alt="index_141.png" width="23" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_142.png" alt="index_142.png" width="103" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_143.png" alt="index_143.png" width="70" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_144.png" alt="index_144.png" width="131" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_145.png" alt="index_145.png" width="17" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_146.png" alt="index_146.png" width="138" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_147.png" alt="index_147.png" width="316" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_148.png" alt="index_148.png" width="139" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_149.png" alt="index_149.png" width="31" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_150.png" alt="index_150.png" width="4" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_151.gif" alt="index_151.gif" width="236" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_152.png" alt="index_152.png" width="104" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_153.png" alt="index_153.png" width="162" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_154.png" alt="index_154.png" width="352" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_155.png" alt="index_155.png" width="229" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Message">
+ <img src="HTMLFiles/index_156.png" alt="index_156.png" width="499" height="18" style="vertical-align:middle;" usemap="#map_156" />
+<map name="map_156">
+<area shape="rect" coords="0,18,18,0" title="Dynamic[RawBoxes[FEPrivate`FrontEndResource[FEStrings, messageMenuTooltip]]]" nohref="" />
+</map>
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_157.png" alt="index_157.png" width="54" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_158.png" alt="index_158.png" width="210" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_159.png" alt="index_159.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_160.png" alt="index_160.png" width="229" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_161.png" alt="index_161.png" width="89" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_162.png" alt="index_162.png" width="388" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_163.png" alt="index_163.png" width="155" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_164.png" alt="index_164.png" width="268" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_165.png" alt="index_165.png" width="66" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_166.gif" alt="index_166.gif" width="336" height="53" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_167.png" alt="index_167.png" width="66" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_168.png" alt="index_168.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_169.png" alt="index_169.png" width="87" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_170.png" alt="index_170.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_171.png" alt="index_171.png" width="30" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_172.png" alt="index_172.png" width="14" height="15" style="vertical-align:middle" />
+</p>
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.8: List/Matrix Operations
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_173.png" alt="index_173.png" width="139" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_174.png" alt="index_174.png" width="139" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_175.png" alt="index_175.png" width="28" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_176.png" alt="index_176.png" width="110" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_177.png" alt="index_177.png" width="28" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_178.png" alt="index_178.png" width="118" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_179.png" alt="index_179.png" width="21" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_180.png" alt="index_180.png" width="124" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_181.png" alt="index_181.png" width="21" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_182.png" alt="index_182.png" width="124" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_183.png" alt="index_183.png" width="44" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_184.png" alt="index_184.png" width="16" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_185.png" alt="index_185.png" width="44" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_186.png" alt="index_186.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_187.png" alt="index_187.png" width="48" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_188.png" alt="index_188.png" width="123" height="29" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_189.png" alt="index_189.png" width="247" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_190.png" alt="index_190.png" width="44" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_191.png" alt="index_191.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_192.png" alt="index_192.png" width="101" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_193.png" alt="index_193.png" width="203" height="29" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/index_194.png" alt="index_194.png" width="109" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_195.png" alt="index_195.png" width="530" height="39" style="vertical-align:middle" />
+</p>
+
+<p class='Chapter' style='background-color: #FF8282;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ 1.9: Conditional Constructs
+</p>
+
+
+
+<p class='Subsection' style='background-color: #FA8F2B;border-left: 0px;border-right: 0px;border-top: 0px;border-bottom: 0px;border-style: solid;border-color: #000000;'>
+ If:s
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/index_196.gif" alt="index_196.gif" width="285" height="129" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/index_197.png" alt="index_197.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>
